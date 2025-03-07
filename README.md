@@ -89,15 +89,3 @@ which python
 2. 仮想環境は `source myenv/bin/activate` コマンドで有効化。
 3. 必要なライブラリは仮想環境内で `pip install ライブラリ名` を使用してインストール。
 4. 環境から抜けるには `deactivate` コマンドを使用。
-
-これらの手順で仮想環境を簡単に管理できます。
-
-情報源
-[1] 【手軽に使えるPython仮想環境】Python venvの使い方 | ギークの逆襲 https://www.geeklibrary.jp/counter-attack/python-venv/
-[2] venvコマンド(Windows, Mac, Linux) #Python - Qiita https://qiita.com/Koki_Takada/items/6c4ff0035944fdd800d8
-[3] Pythonの仮想環境構築 - パッケージ管理編 - Zenn https://zenn.dev/mook_jp/articles/6815e6806b516f
-[4] 初めてのPython実践試験学習 第五回「venvでPythonの仮想環境を ... https://www.pythonic-exam.com/archives/8627
-[5] Pythonの環境構築をマスターする(pyenv,venv)(WSL2,Ubuntu利用 ... https://zenn.dev/tigrebiz/articles/2822fb4de256d8
-[6] 仮想環境: Python環境構築ガイド - python.jp https://www.python.jp/install/windows/venv.html
-[7] venv --- 仮想環境の作成 — Python 3.13.2 ドキュメント https://docs.python.org/ja/3.13/library/venv.html
-[8] LinuxやmacOSでPythonの仮想環境を構築する方法 - K-Lab https://www.nemotos.net/?p=5469
