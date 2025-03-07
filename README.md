@@ -90,11 +90,14 @@ which python
 3. 必要なライブラリは仮想環境内で `pip install ライブラリ名` を使用してインストール。
 4. 環境から抜けるには `deactivate` コマンドを使用。
 
+
+
 pypdfium2を利用できるようにします。
 ### **1. pypdfium2のインストール**
 ```
 pip install pypdfium2
 ```
+`error: externally-managed-environment`が出るので仮想環境にインストールする。
 正しくインストールされているか確認。
 ```
 pip show pypdfium2
