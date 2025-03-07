@@ -89,3 +89,47 @@ which python
 2. 仮想環境は `source myenv/bin/activate` コマンドで有効化。
 3. 必要なライブラリは仮想環境内で `pip install ライブラリ名` を使用してインストール。
 4. 環境から抜けるには `deactivate` コマンドを使用。
+
+pypdfium2を利用できるようにします。
+### **1. pypdfium2のインストール**
+```
+pip install pypdfium2
+```
+正しくインストールされているか確認。
+```
+pip show pypdfium2
+```
+- 出力例：仮想環境
+```
+Name: pypdfium2
+Version: 4.30.1
+Summary: Python bindings to PDFium
+Home-page: https://github.com/pypdfium2-team/pypdfium2
+Author: pypdfium2-team
+Author-email: geisserml@gmail.com
+License: BSD-3-Clause, Apache-2.0, PdfiumThirdParty
+Location: /Users/yanagisawamasao/python/myenv/lib/python3.13/site-packages
+```
+### **2. pythonの実行**
+```
+python pdf.py
+```
+- 出力例
+```
+Enterprise 㻿earch Engine
+導入事例
+〒980-0021　宮城県仙台市青葉区中央二丁目9番10号
+https://www.toinx.co.jp/
+【会社概要】
+「I㼀䛷、感動を、䛸䜒䛻。」をスローガン䛻、1954年䛾創業以降、東北䛾I㼀業界䛾リーダー䛸し䛶、東北電力グループを䛿じ䜑䛸する地域䛾お客さ䜎䛾情報シス
+テム䛾開発・保守・運用を支え、多く䛾お客さ䜎から䛾信頼や技術力を誇る株式会社トインクス。
+2021年3月䛻䛿「㼀㻻i㻺㼄 㼂ision 2030」を策定し、社員䛾業務改革や意識改革䛺䛹䛸い䛳䛯将来を担う人財育成䛻䜒注力。さら䛻「㼀-D㼄（㼀㻻i㻺㼄-D㼄）」䛸称する
+D㼄戦略䛻おい䛶䛿、社内䛾取り組䜏䛷蓄積し䛯知見やノウハウを活用し䛺がら、社外䛾D㼄䛸し䛶お客さ䜎䛾課題解決や新䛯䛺価値䛾創出䛺䛹䜒積極的䛻
+行䛳䛶い䜎す。
+「I㼀䛷、感動を、䛸䜒䛻。」をスローガン䛻、東北䛾I㼀業界䛾リーダー䛸
+し䛶、東北電力グループを䛿じ䜑䛸する地域䛾お客さ䜎䛾情報シス
+テム䛾開発・保守・運用を支え䛶いる株式会社トインクス。
+ファイルサーバ䛾リプレイスをき䛳かけ䛻企
+```
+
+
