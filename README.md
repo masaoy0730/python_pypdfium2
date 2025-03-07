@@ -117,7 +117,7 @@ Location: /Users/yanagisawamasao/python/myenv/lib/python3.13/site-packages
 ```
 python pdf.py
 ```
-- 出力例
+- pypdfium2だと文字化けする出力例
 ```
 Enterprise 㻿earch Engine
 導入事例
