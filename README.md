@@ -1,0 +1,2 @@
+# python_pypdfium2
+Pythonでpypdfium2を使う環境の構築を行います。
