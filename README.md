@@ -108,7 +108,7 @@ Location: /Users/yanagisawamasao/python/myenv/lib/python3.13/site-packages
 ```
 ## **2. pythonの実行**
 ```
-python pdf.py [ファイル名]
+python main.py [ファイル名]
 ```
 - pypdfium2だと文字化けする出力例:[文字化けするファイルの例](https://www.brains-tech.co.jp/case/case30-toinx/)。<br>
 ```
